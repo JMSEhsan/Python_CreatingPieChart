@@ -8,8 +8,8 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([30, 15, 30, 25])
-mylabels = ["Pomegranates", "Persimmons", "Grapes", "Dates"]
+y = np.array([25, 10, 30, 35])
+mylabels = ["Dates", "Persimmons", "Grapes", "Pomegranates"]
 
 plt.pie(y, labels = mylabels)
 plt.show() 
