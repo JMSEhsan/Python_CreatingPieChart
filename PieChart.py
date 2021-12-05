@@ -1,4 +1,4 @@
-#  Creating pie Chart
+#  Creating Pie Chart
 # - W3schoosl.com
 
 import matplotlib.pyplot as plt
