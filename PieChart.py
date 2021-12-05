@@ -1,4 +1,4 @@
-#  Creating Pie Chart
+# Creating Pie Chart
 # https://www.w3schools.com/python/trypython.asp?filename=demo_matplotlib_pie2
 
 import sys
@@ -8,7 +8,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([40, 20, 30, 10])
+y = np.array([30, 20, 25, 25])
 mylabels = ["Pomegranates", "Persimmons", "Grapes", "Dates"]
 
 plt.pie(y, labels = mylabels)
