@@ -8,7 +8,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([30, 20, 25, 25])
+y = np.array([30, 15, 30, 25])
 mylabels = ["Pomegranates", "Persimmons", "Grapes", "Dates"]
 
 plt.pie(y, labels = mylabels)
