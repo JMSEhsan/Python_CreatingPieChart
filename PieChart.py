@@ -5,14 +5,15 @@
 #Three lines to make our compiler able to draw:
 import sys
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('tkagg')
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([35, 25, 25, 15])
+y = np.array([40, 20, 30, 10])
+mylabels = ["Pomegranates", "Persimmons", "Grapes", "Dates"]
 
-plt.pie(y)
+plt.pie(y, labels = mylabels)
 plt.show() 
 
 #Two  lines to make our compiler able to draw:
